@@ -7,7 +7,7 @@ import CheckoutForm from "../components/CheckoutForm";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 
-const stripePromise = loadStripe("pk_test_51PDICnSHLbxfOUBAY8EciGXwg5p2MdReDjqA2GaAwWjxkqCEvTaC1rqhRnkqtYjOgI0FGlXo844iKwdel66DTx3d00M7XCEt7m");
+const stripePromise = loadStripe("pk_test_51PBvLISErqPEkEA51XvcpqyC0fnZObGzTDKwHvvqMGXQCujiQvAYrIzPKtobkmZYAbU1s1TCT9XGnleIIJRwcLvQ00gKjb4OFL");
 
 function checkout(){
     const [clientSecret, setClientSecret] = useState("");

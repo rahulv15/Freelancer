@@ -35,72 +35,72 @@ function Footer() {
       link: "https://twitter.com",
     },
   ];
-  const data = [
-    {
-      headerName: "Categories",
-      links: [
-        ...categories.map(({ name }) => ({
-          name,
-          link: `/search?q=${name}`,
-        })),
-      ],
-    },
-    {
-      headerName: "About",
-      links: [
-        { name: "Careers", link: "#" },
-        { name: "Press & News", link: "#" },
-        { name: "Partnership", link: "#" },
-        { name: "Privacy Policy", link: "#" },
-        { name: "Terms of Service", link: "#" },
-        { name: "Intellectual Property Claims", link: "#" },
-        { name: "Investor Relations", link: "#" },
-      ],
-    },
-    {
-      headerName: "Support",
-      links: [
-        { name: "Help & Support", link: "#" },
-        { name: "Trust & Safety", link: "#" },
-        { name: "Selling on Fiverr", link: "#" },
-        { name: "Buying on Fiverr", link: "#" },
-      ],
-    },
-    {
-      headerName: "Community",
-      links: [
-        { name: "Community Success Stories", link: "#" },
-        { name: "Community Hub", link: "#" },
-        { name: "Forum", link: "#" },
-        { name: "Events", link: "#" },
-        { name: "Blog", link: "#" },
-        { name: "Influencers", link: "#" },
-        { name: "Affiliates", link: "#" },
-        { name: "Podcast", link: "#" },
-        { name: "Invite a Friend", link: "#" },
-        { name: "Become a Seller", link: "#" },
-        { name: "Community Standards", link: "#" },
-      ],
-    },
-    {
-      headerName: "Move From Freelancer",
-      links: [
-        { name: "Freelancer Business", link: "#" },
-        { name: "Freelancer Pro", link: "#" },
-        { name: "Freelancer Logo Maker", link: "#" },
-        { name: "Freelancer Guides", link: "#" },
-        { name: "Get Inspired", link: "#" },
-        { name: "Freelancer Select", link: "#" },
-        { name: "ClearVoice", link: "#" },
-        { name: "Freelancer Workspace", link: "#" },
-        { name: "Learn", link: "#" },
-        { name: "Working Not Working", link: "#" },
-      ],
-    },
-  ];
+  // const data = [
+  //   {
+  //     headerName: "Categories",
+  //     links: [
+  //       ...categories.map(({ name }) => ({
+  //         name,
+  //         link: `/search?q=${name}`,
+  //       })),
+  //     ],
+  //   },
+  //   {
+  //     headerName: "About",
+  //     links: [
+  //       { name: "Careers", link: "#" },
+  //       { name: "Press & News", link: "#" },
+  //       { name: "Partnership", link: "#" },
+  //       { name: "Privacy Policy", link: "#" },
+  //       { name: "Terms of Service", link: "#" },
+  //       { name: "Intellectual Property Claims", link: "#" },
+  //       { name: "Investor Relations", link: "#" },
+  //     ],
+  //   },
+  //   {
+  //     headerName: "Support",
+  //     links: [
+  //       { name: "Help & Support", link: "#" },
+  //       { name: "Trust & Safety", link: "#" },
+  //       { name: "Selling on Fiverr", link: "#" },
+  //       { name: "Buying on Fiverr", link: "#" },
+  //     ],
+  //   },
+  //   {
+  //     headerName: "Community",
+  //     links: [
+  //       { name: "Community Success Stories", link: "#" },
+  //       { name: "Community Hub", link: "#" },
+  //       { name: "Forum", link: "#" },
+  //       { name: "Events", link: "#" },
+  //       { name: "Blog", link: "#" },
+  //       { name: "Influencers", link: "#" },
+  //       { name: "Affiliates", link: "#" },
+  //       { name: "Podcast", link: "#" },
+  //       { name: "Invite a Friend", link: "#" },
+  //       { name: "Become a Seller", link: "#" },
+  //       { name: "Community Standards", link: "#" },
+  //     ],
+  //   },
+  //   {
+  //     headerName: "Move From Freelancer",
+  //     links: [
+  //       { name: "Freelancer Business", link: "#" },
+  //       { name: "Freelancer Pro", link: "#" },
+  //       { name: "Freelancer Logo Maker", link: "#" },
+  //       { name: "Freelancer Guides", link: "#" },
+  //       { name: "Get Inspired", link: "#" },
+  //       { name: "Freelancer Select", link: "#" },
+  //       { name: "ClearVoice", link: "#" },
+  //       { name: "Freelancer Workspace", link: "#" },
+  //       { name: "Learn", link: "#" },
+  //       { name: "Working Not Working", link: "#" },
+  //     ],
+  //   },
+  // ];
   return (
     <footer className="w-full  mx-auto px-32 py-16 h-max border-t border-gray-200 bg-gray-100">
-      <ul className="flex justify-between">
+      {/* <ul className="flex justify-between">
         {data.map(({ headerName, links }) => {
           return (
             <li key={headerName} className="flex flex-col gap-2">
@@ -115,7 +115,7 @@ function Footer() {
             </li>
           );
         })}
-      </ul>
+      </ul> */}
       <div className="mt-12 flex items-center justify-between">
         <FreelancerLogo fillColor={"#404145"} />
         <ul className="flex gap-5">

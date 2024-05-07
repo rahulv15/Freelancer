@@ -46,8 +46,8 @@ function Navbar() {
     };
 
     const links = [
-        { linkName: "Freelancer Business", handler: "#", type: "link"},
-        { linkName: "Explores", handler: "#", type: "link"},
+        // { linkName: "Freelancer Business", handler: "#", type: "link"},
+        // { linkName: "Explores", handler: "#", type: "link"},
         { linkName: "English", handler: "#", type: "link"},
         { linkName: "Become a Seller", handler: "#", type: "link"},
         { linkName: "Sign in", handler: handleLogin, type: "button"},
